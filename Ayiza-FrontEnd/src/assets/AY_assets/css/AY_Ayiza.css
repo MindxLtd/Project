@@ -1,0 +1,249 @@
+/*aligning the contents of the table */
+
+.ay_me_error
+{
+  font-size: 14px;
+	padding-bottom: 15px;
+}
+.ay_mgs_error
+{
+	color:  #ff0033;
+}
+.ay_mgs_warning
+{
+	color: #ffae42 ;
+}
+
+.ay_accor-bx{
+	
+	margin:0px 10px 10px 10px;
+}
+.ay_accor-bx .table{
+	border:none !important;
+}
+.ay_accor-bx .table th{
+	border-top:0px;
+	border-color:#CCC;
+	height: 35px;
+}
+.ay_accor-bx .table td{
+	
+	border-color:#CCC;
+	height: 35px;
+}
+.ay_accor-bx a.link{
+	display:inline-block;
+	margin-right:10px;
+	font-size:16px;
+}
+/*
+
+.ay_recp_boxitem_wrapper {
+    min-width: 120px;
+    width: 100%;
+    height: 11rem;
+    border: 2px solid #e8e6e1;
+    background-color: #fff;
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    color: #3e3e3e;
+}
+*/
+/*
+.ay_recp_boxlist_item {
+
+    width: 100%;
+    height: 20%;
+    color: #333333;
+    font-size: .9rem;
+    font-weight: 600;
+    padding: 0.25rem;
+    padding-top: 0.5rem;
+
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: uppercase;
+	font-weight:bold;
+}
+*/
+/*
+.ay_recp_boxlist_item.receipt {
+	background-color: var(--receipt-black);
+	color: #fff;
+	font-weight: 300;
+}
+*/
+/*
+.ay_recp_img_wrapper
+{
+	vertical-align: middle;
+	text-align: center;
+	height: 60%
+		
+
+}
+*/
+.ay-recp-itembx .card .card-header
+{
+	background-color: #333333;
+	font-size: 12px;
+	font-weight: 300;
+	color: #fff;
+    margin: 0px;
+    text-align: center;
+	    padding-top: 8px;
+    padding-bottom: 8px;
+	
+}
+.ay-recp-itembx .card .card-footer
+{
+	background-color: #fff;
+
+}
+
+.ay_g_checbox {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	margin: auto;
+	margin-bottom: 1px;
+	    margin-left: 0px;
+
+}
+
+/* Hide the browser's default checkbox */
+.ay_g_checbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    display:none;
+
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  
+    height: 22.40px !important;
+    width: 22.40px !important;
+    background-color: #fff;
+    border: 1px solid #386F3B;
+    border-radius: 0.2rem;
+	text-align: center;
+	color: white;
+	padding: 2.8px;
+	margin: 0.1rem 0.1rem;
+
+}
+
+/* On mouse-over, add a grey background color */
+.ay_g_checbox:hover input ~ .checkmark:after {
+     opacity: 0.5;
+}
+
+/* When the checkbox is checked, add a blue background */
+.ay_g_checbox input:checked ~ .checkmark {
+    background-color: #386F3B;
+
+
+}
+.ay_g_checbox input:checked ~ .checkmark:after {
+	color: #ffffff;
+	opacity: 1;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+     content: '\f00c';
+    font-family: FontAwesome;
+    font-size: 14px;
+	color: #386F3B;
+     opacity: 0.1;
+    
+   
+}
+.rcpt_img_wrapper
+{
+	height: 100px;
+	
+}
+
+.rcpt_img_wrapper:hover .rcpt_img
+{
+	  opacity: 0.3;
+	cursor: pointer;
+	
+}
+.rcpt_img_wrapper:hover .rcpt_img_hicon
+{
+	  opacity: 1;
+		cursor: pointer;
+}
+.rcpt_img
+{
+	 opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.rcpt_img_hicon
+{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.rcpt_icon
+{
+	
+  color: #333333;
+  font-size: 16px;
+}
+.rcpt_grp_bx
+{
+	margin-top: 10px;
+	padding: 3px;
+	border: 1px solid grey;
+	overflow: scroll;
+	height: 300px;
+}
+.rcpt-img_prv
+{
+	margin-top: 10px;
+	padding: 3px;
+	border: 1px solid grey;
+	overflow: scroll;
+	height: 300px;
+	
+}
+.img_pop_box
+{
+
+	 background-color: #ffffff;
+
+}
+.img_pop_scroll
+{
+	overflow-y: scroll;
+	height: 350px;
+	margin: auto;
+		
+	
+}
+.img_pop_scroll img
+{
+	width: 300px;
+}
+.no-rcpt-att
+{
+	color: #ffae42 !important;
+}

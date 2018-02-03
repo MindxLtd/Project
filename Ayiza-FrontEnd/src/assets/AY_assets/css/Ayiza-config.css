@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.go-btn-left {
+	border:1px green solid;
+	padding: 0.3rem 1rem;
+	font-size:14px;
+	border-radius:3px;
+	color:green;
+	cursor:pointer;
+	background-color:#fff;
+	display: block;
+	float: left;
+	
+
+}
+.go-btn-left:hover{
+	background-color:green;
+	color:#fff;
+}
+.btn-row-inline
+{
+	display: inline-block;
+}
+.mlangtrheight tr
+{
+	height: 46px;
+}

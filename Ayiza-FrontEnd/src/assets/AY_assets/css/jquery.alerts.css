@@ -1,0 +1,76 @@
+#popup_container {
+	    font-family: Arial, sans-serif;
+    font-size: 12px;
+    min-width: 300px;
+    max-width: 600px;
+    background: #FFF;
+       margin: 0 30%!important;
+    left: 0!important;
+    width: 38%;
+    max-width: 100% !important;
+    color: #000;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+#popup_overlay { background: rgba(0, 0, 0, 0.64) !important;    opacity: 1 !important;}
+#popup_title {
+	font-size: 24px;
+    /* font-weight: bold; */
+    text-align: left;
+    line-height: 1.75em;
+    color: #666;
+    border: solid 1px #FFF;
+    border-bottom: solid 1px #dad7d7;
+    cursor: default;
+    padding: 10px 20px;
+    margin: 0em;
+}
+
+#popup_content {
+	background: 16px 16px;
+    padding: 1em 1.75em 1em 0px;
+    margin: 0em;
+}
+.abcdefgh {font-size: 16px;
+    background: #fff !important;     margin-right: 1%;
+    border-radius: 0px !important; color:#000 !important;
+    border: 1px solid #000 !important; }
+	
+	.abcdef {font-size: 16px;
+       background: #de3b3b !important;
+    border: 1px solid #de3b3b !important;
+    border-radius: 0px !important;
+	color:#fff !important;
+    }
+#popup_content.alert {
+	
+}
+
+#popup_content.confirm {
+
+}
+
+#popup_content.prompt {
+	
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {     color: #000;
+    cursor: pointer;
+    -webkit-appearance: button;
+    background: #fff;
+    border: 1px solid #008000;
+    padding: 6px 10px;    border-radius: 5px;}
+#popup_message {
+    font-size: 18px;	padding-left: 23px;     color: #7f7a7a;
+    border-bottom: solid 1px #dad7d7;
+    padding-bottom: 1em;
+}
+
+#popup_panel {
+	    text-align: right;
+	margin: 1em 0em 0em 1em;
+}
+
+#popup_prompt {
+	margin: .5em 0em;
+}

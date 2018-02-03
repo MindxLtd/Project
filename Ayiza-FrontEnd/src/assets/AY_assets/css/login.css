@@ -1,0 +1,399 @@
+body{
+	background-color:#a7b2c0;
+	font-family: 'Dosis', sans-serif;
+	font-weight:400;
+	
+}
+.login-con{
+	max-width:930px;
+}
+.login-head{
+	background-color:#3b434c;
+	min-height:60px;
+	padding-top:7px;
+}
+.login-wrap{
+	background-image:url(../images/AY_London_1.jpeg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	min-height:690px;
+}
+.signup-wrap{
+	background-image:url(../images/Tokyo-Tower.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	min-height:700px;
+}
+.login-form{
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#FFF;
+	width:315px;
+	height:100%;
+	padding:12px;
+}
+.login-form h1{
+	font-size:25px;
+	color:#3b434c;
+	font-weight:400;
+	margin-bottom:20px;
+	margin-top:3px;
+}
+.login-form label{
+	font-weight:400;
+	font-size:14px;
+}
+.login-form .form-control{
+	border-bottom:solid 1px rgba(0,0,0,0.6);
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-radius:0px;
+	box-shadow:none;
+	margin:0 auto 35px auto;
+	width:82%;
+	
+}
+.login-form .form-control:focus{
+	border-bottom:solid 1px #98cc58;
+}
+.login-form .fa{
+	font-size:18px;
+	margin-right:10px;
+}
+/*buttons styles used for signup,login, forgot user,pass pages*/
+.green-but{
+	border:1px #3b434c solid;
+	background-color:#FFF;
+	padding:8px 18px;
+	border-radius:0px;
+	margin-right:15px;
+	cursor:pointer;
+	color:#333;
+	font-size:14px;
+}
+.green-but:hover{
+	background-color:#98cc58;
+	border:1px #98cc58 solid;
+	color:#333;
+}
+.gray-but{
+	border:1px #3b434c solid;
+	background-color:#FFF;
+	padding:8px 18px;
+	border-radius:0px;
+	margin-right:15px;
+	cursor:pointer;
+	color:#333;
+	font-size:14px;
+}
+.gray-but:hover{
+	background-color:#a7b2c0;
+	border:1px #a7b2c0 solid;
+}
+.but-con{
+	padding-left:25px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 39px;
+  height: 23px;
+  background: url(../images/switch-bg.jpg) no-repeat center center;
+ 
+}
+.switch input {display:none;}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 0px;
+  bottom: 4px;
+  background-color: #000;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius:3px;
+}
+
+input:checked + .slider {
+  
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #fff;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  background-color: #98cc58;
+}
+.slider.round {
+  border-radius: 34px;
+}
+.switch-con{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:11px;
+	padding-left:27px;
+	margin-bottom:20px;
+}
+.switch-con .checkbox{
+	margin:0px;
+}
+.no-pad-l{
+	padding-left:0px;
+}
+.no-pad-r{
+	padding-right:0px;
+}
+.login-links{
+	padding-top:45px;
+	padding-bottom:15px;
+	padding-left:25px;
+}
+.login-links a{
+	color:#3b434c;
+	font-size:11px;
+	text-decoration:none;
+}
+.login-links p{
+	padding-top:30px;
+	font-size:11px;
+}
+.select-lang{
+	border:none;
+	 margin-left: 10px;
+/*	width:140px;*/
+	
+}
+.select-lang::-ms-expand, select.form-control::-ms-expand {
+        display: none;
+	    
+    }
+.select-lang, select.form-control
+{
+	-webkit-appearance:none;
+-moz-appearance:none;
+appearance:none;
+cursor:pointer;
+}
+
+.select-lang + i.fa{
+
+        margin-left: -20px;
+        /* this is so when you click on the chevron, your click actually goes on the dropdown menu */
+        pointer-events: none;
+		color:grey;
+        font-size: 12px!important;
+        background-color: transparent;
+        
+  
+}
+select.form-control + i.fa 
+{
+	float: right;
+	font-size: 12px;
+	color:grey;
+	margin-top: -20px;
+	margin-right: -3px;
+	  pointer-events: none;
+
+}
+.lang-select{
+	position:absolute;
+	bottom:0px;
+	left:30px;
+	font-size:11.5px;
+}
+.footer{
+	background-color:#3b434c;
+	min-height:115px;
+	position:relative;
+	margin-bottom:80px;
+}
+.footer-txt{
+	color:#fff;
+	font-size:11.5px;
+	position:absolute;
+	bottom:20px;
+	right:15px;
+}
+.footer-txt ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+.footer-txt ul li{
+	float:left;
+	background:url(../images/f-line.jpg) no-repeat right;
+	padding-left:10px;
+	padding-right:10px;
+}
+.footer-txt ul li:last-child{
+	background:none;
+}
+.footer-txt ul li a{
+	color:#fff;
+	font-size:11.5px;
+	display:inline-block;
+}
+.center-bx{
+	background-color:#FFF;
+	max-width:540px;
+	height:303px;
+	margin-top:20%;
+	margin-bottom:20%;
+	padding:10px 20px;
+}
+.center-bx h1{
+	font-size:25px;
+	color:#3b434c;
+	font-weight:400;
+	margin-bottom:30px;
+	margin-top:10px;
+	
+}
+.center-bx p{
+	text-align:center;
+	margin-bottom:15px;
+	color:#3b434c;
+}
+.f-bx{
+	padding-top:20px;
+}
+.center-bx .form-control{
+	border-bottom:solid 1px rgba(0,0,0,0.6);
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-radius:0px;
+	box-shadow:none;
+	margin:0 auto 35px auto;
+	width:82%;
+	
+}
+.center-bx .form-control:focus{
+	border-bottom:solid 1px #98cc58;
+}
+.cenbx-but-con{
+	width:48%;
+	margin:0 auto;
+}
+/*signup style*/
+.signup-form{
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#FFF;
+	width:315px;
+	height:100%;
+	padding:12px 20px 50px 12px;
+}
+.sup-txt{
+	font-size:0.9rem;
+	padding-bottom:15px;
+	color:#3b434c;
+	width:261px;
+}
+.signup-form h1{
+	font-size:25px;
+	color:#3b434c;
+	font-weight:400;
+	margin-bottom:20px;
+	margin-top:10px;
+}
+.signup-form label{
+	font-weight:400;
+}
+.signup-form .form-group{
+	border-left:solid 1px red;
+	margin-top:20px;
+	
+}
+select.form-control:not([size]):not([multiple]){
+	height:21px;
+	color:#666;
+}
+.signup-form .form-control{
+	border-bottom:solid 1px #a7b2c0;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-radius:0px;
+	box-shadow:none;
+	padding:0px 0px 0px 2px;
+	height:21px;
+	margin-left:10px;
+	font-size:14px;
+	
+}
+.signup-form .form-control:focus{
+	border-bottom:solid 1px #98cc58;
+}
+.signup-inner{
+	padding-left:20px;
+	padding-right:20px;
+}
+.signup-terms{
+	font-size:11px;
+	padding-top:15px;
+	padding-bottom:15px;
+	color:#333;
+}
+.signup-terms a{
+	color:#98cc58;
+}
+.signup-form .but-con{
+	padding-left:0px;
+}
+#to-top {
+    position: fixed;
+    display: none;
+    padding: 2px 6px;
+    box-sizing: border-box;
+    right: 3%;
+    bottom: 5%;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgba(125,120,115,0.3);
+    cursor: pointer;
+	z-index:100000;
+}
+
+@media (max-width: 767px){
+	.login-form{
+		width:100%;
+	}
+	.signup-form{
+		width:100%;
+	}
+	.center-bx{
+		margin:0px;
+		height:600px;
+	}
+	.cenbx-but-con{
+		width: 69%;
+	}
+	.login-con{
+		padding:0px;
+	}
+}
